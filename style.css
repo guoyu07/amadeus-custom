@@ -656,6 +656,7 @@ textarea {
 	max-height: 180px;
 	border-radius: 50%;
 }
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -736,6 +737,13 @@ textarea {
 	text-align: center;
 	position: relative;
 }
+
+.single-thumb img,
+.entry-thumb img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .entry-thumb-inner {
 	position: absolute;
 	top: 0;
@@ -753,6 +761,7 @@ textarea {
 	width: 80%;
 	height: 80%;
 	opacity: 0.6;
+  border-radius: 10px; 
 }
 .thumb-icon {
 	opacity: 0;
@@ -765,7 +774,7 @@ textarea {
 }
 .thumb-icon,
 .thumb-icon:hover {
-	color: #fff;
+	color: #fff!important;
 }
 .entry-thumb:hover .thumb-icon {
 	opacity: 1;
