@@ -259,6 +259,15 @@ function amadeus_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'amadeus_excerpt_length', 999 );
 
+/**
+ * Read more after except
+ */
+
+ function amadeus_excerpt_read_more_link( $output ) {
+ 	global $post;
+ 	return $output . ' <a href="' . get_permalink( $post->ID ) . '" class="more-link" title="Read More">Read More</a>';
+ }
+ add_filter( 'the_excerpt', 'amadeus_excerpt_read_more_link' );
 
 /**
  * Footer credits
