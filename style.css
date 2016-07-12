@@ -676,6 +676,13 @@ textarea {
 .post-inner {
 	padding: 45px;
 }
+.post-inner a.more-link {
+  float: right;
+}
+
+.post-inner a.more-link i.fa {
+  margin-left: 5px;
+}
 .updated:not(.published) {
 	display: none;
 }

@@ -265,7 +265,7 @@ add_filter( 'excerpt_length', 'amadeus_excerpt_length', 999 );
 
  function amadeus_excerpt_read_more_link( $output ) {
  	global $post;
- 	return $output . ' <a href="' . get_permalink( $post->ID ) . '" class="more-link" title="Read More">Read More</a>';
+ 	return $output . ' <a href="' . get_permalink( $post->ID ) . '" class="more-link" title="Lees Meer">Lees meer<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>';
  }
  add_filter( 'the_excerpt', 'amadeus_excerpt_read_more_link' );
 
