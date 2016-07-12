@@ -743,42 +743,6 @@ textarea {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
-.entry-thumb-inner {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	background-color: #618EBA;
-	-webkit-transition: all 0.4s;
-	transition: all 0.4s;
-}
-.entry-thumb:hover .entry-thumb-inner {
-	top: 10%;
-	left: 10%;
-	width: 80%;
-	height: 80%;
-	opacity: 0.6;
-  border-radius: 10px; 
-}
-.thumb-icon {
-	opacity: 0;
-	position: absolute;
-	font-size: 56px;
-	top: 42%;
-	left: 46%;
-	-webkit-transition: opacity 0.5s;
-	transition: opacity 0.5s;
-}
-.thumb-icon,
-.thumb-icon:hover {
-	color: #fff!important;
-}
-.entry-thumb:hover .thumb-icon {
-	opacity: 1;
-}
 .page-header {
 	margin: 0 0 45px;
 	padding: 0;
