@@ -8,9 +8,6 @@
 	<?php if ( has_post_thumbnail() && ( get_theme_mod( 'index_feat_image' ) != 1 ) ) : ?>
 	<div class="entry-thumb">
 		<?php the_post_thumbnail('amadeus-entry-thumb'); ?>
-		<div class="entry-thumb-inner">
-		</div>
-		<a class="thumb-icon" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" ><i class="fa fa-send"></i></a>
 	</div>
 	<?php endif; ?>
 
