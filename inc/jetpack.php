@@ -13,7 +13,7 @@
 function amadeus_jetpack_setup() {
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
-		'footer'    => 'page',
+		'footer'    => false,
 	) );
 }
 add_action( 'after_setup_theme', 'amadeus_jetpack_setup' );

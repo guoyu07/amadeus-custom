@@ -519,6 +519,10 @@ textarea {
 .widget ul {
 	padding: 0 0 0 20px;
 }
+.widget_links ul {
+  padding: 0;
+  list-style: none;
+}
 .widget li {
 	padding-top: 2px;
 	padding-bottom: 2px;
